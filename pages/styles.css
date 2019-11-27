@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+    
+header{
+    background-color: #B39CD0;
+}
+
+main{
+    background-color: #FBEAFF;
+}
+
+footer{
+    background-color:  #B39CD0;
+}
+
+.section{         /*PUESTO UN DIV PERO EL FLEX AGARRA A LOS HIJOS DIRECTOS POR ESO ES QUE LA CLASE SE LA PUSE A LA UL*/
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: start;
+    list-style-type: none;
+}
+
+.title{
+    padding: 20px;
+    cursor: pointer;
+}
+
+.know{
+    color:  black;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.in{
+    padding: 10px;
+}
+
+#avatar{
+    width: 200px;
+}
+
+#section-second{
+    padding:50px;
+}
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 100px;
+    padding: 30px 70px;
+}
+
+.section-last{
+    font-size:15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: start;
+}
+
+.media{
+    list-style-type: none;
+    padding: 5px;
+}
+
+.fab{
+    margin: 0px 5px 0px 0px;                /*NO PODIA ALINEARLO CON EL TITULO PORQUE TENIA MARGEN IZQUIERDO EL ICONO*/
+}
+
+.rights{
+    padding: 0px 20px 20px;
+    font-size: 12px;
+}
+
+

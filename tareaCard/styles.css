@@ -1,0 +1,104 @@
+/*EN ESTE SOLO CAMBIE EL INLINE FLEX DE LA CARD*/
+
+body{
+    background-color: #EFD6D2;
+    font-family: 'Quicksand', sans-serif;
+    margin: 5px;
+}
+
+h1{
+    margin: 10px;
+}
+
+p{
+    margin: 10px;
+    padding: auto;
+    text-align: justify;
+}
+
+h2{
+    margin: 10px;
+}
+
+h3{
+    margin: 10px;
+}
+
+.container{
+    background-color:whitesmoke;
+    margin: 100px 280px;                                    
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px 2px black;
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.motorola{
+    width: 400px;
+    overflow: hidden; 
+    display: inline-block
+}
+
+.contain{
+    display: inline-block;
+    width: 370px;
+    vertical-align: top;
+    
+}
+
+.comprar{
+    background-color: #ea4c89;
+    color: whitesmoke;
+    width: 100px;
+    margin: 25px 5px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.carrito{
+    background-color: #e77aa4;
+    color: whitesmoke;
+    width: 150px;
+    margin: 25px 5px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.black{
+    border-radius: 50%;                         
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-width: 0px;  
+}
+
+.white{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(244, 245, 188);
+    border-width: 0px;                 
+}
+
+.pink{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    background-color: #EFD6D2;
+    border-width: 0px;                      
+}
+
+.colors{
+    text-align: center;
+}
+
+.fas {
+    color:whitesmoke;           
+}

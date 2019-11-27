@@ -1,0 +1,74 @@
+/*PREGUNTAR POR QUE NO PUEDO CON BUTTON EN EL HEAD. TENDRIA QUE PONERLE FLEX A HEAD, SECTION Y SECTION FIRST?*/
+*{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+p{
+    text-align: justify;
+    padding: 5px 20px;
+    line-height: 30px;
+}
+
+h1{
+    padding: 5px 20px;
+}
+
+h2{
+    padding: 5px 20px;
+}
+
+.head{                              
+    background-color: lightpink;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;     /*ALEJARLOS!!!!!!!!!!!!*/
+}
+
+.sections{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.section-second{
+    padding: 0px;    
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.item{
+    margin: 20px 30px;
+}
+
+.link{
+    color:  black;
+    text-decoration: none;
+}
+
+.peron{
+    color:  black;
+}
+
+footer{
+    font-size: 15px;
+    background-color: lightpink;
+}
+
+.media{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.info{
+    list-style-type: none;
+    padding: 20px 0px;
+    margin: 0px 40px;
+}

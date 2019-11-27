@@ -1,0 +1,78 @@
+body {
+    margin: 0px;
+      
+}
+
+p {
+    margin: 0px;
+}
+
+.container {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    margin: 0px 10px;
+    padding: 10px;
+    border-left: 5px solid rgb(19, 1, 85);
+}
+
+.section-first {                              /*DISPLAY FLEX VA EN CADA CONTENEDOR PORQUE CENTRA EL CONTENIDO*/
+    background-color: #041B15;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.section-second {
+    background-color: #136F63;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.section-third {
+    background-color: #22AAA1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.section-fourth {
+    background-color: #4CE0D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;   
+}
+
+.proof{
+    width: 500px;
+    background-color: rgb(240, 245, 196);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px 20px 2px black;
+}
+
+.yoda{
+    width: 100%;
+    margin: 0px auto 15px;
+}
+
+.vader{
+    width: 100%;
+    margin: 0px auto 15px;
+}
+
+.maul{
+    width: 100%;
+    margin: 0px auto 15px;
+}
+
+.section {
+    font-family: 'Cabin', sans-serif;
+    font-size: 25px;
+    padding: 25px;
+    margin: 0px auto;
+}
